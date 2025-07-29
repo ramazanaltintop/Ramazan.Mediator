@@ -1,8 +1,8 @@
 # Ramazan.Mediator
 
-A lightweight, extensible Mediator implementation for .NET — designed with Clean Architecture and Domain-Driven Design (DDD) in mind.
+A lightweight, extensible Mediator implementation for .NET - designed with Clean Architecture and Domain-Driven Design (DDD) in mind.
 
-Use it to decouple your application layers while supporting CQRS, request/response messaging, pipeline behaviors, and domain events — all with minimal setup.
+Use it to decouple your application layers while supporting CQRS, request/response messaging, pipeline behaviors, and domain events - all with minimal setup.
 
 ## Features
 
