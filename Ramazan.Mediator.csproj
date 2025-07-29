@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Lightweight CQRS &amp; Mediator for .NET</Title>
+    <Version>1.0.0</Version>
+    <Authors>Ramazan Altıntop</Authors>
+    <Company>Ramazan Altıntop</Company>
+    <Description>Lightweight and extensible Mediator for .NET — supports CQRS, pipeline behaviors, and domain events.</Description>
+    <Copyright>Copyright © 2025 Ramazan</Copyright>
+    <Product>Ramazan.Mediator</Product>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/ramazanaltintop/Ramazan.Mediator</PackageProjectUrl>
+    <PackageTags>mediator; cqrs; clean-architecture; ddd; dotnet; .net; design-patterns; dependency-injection; pipeline; notification; command; query; behavior; handler; domain-events</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/ramazanaltintop/Ramazan.Mediator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>tr</NeutralLanguage>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Ramazan.Mediator</PackageId>
+    <PackageReleaseNotes>Initial release of Ramazan.Mediator
+- CQRS with Commands &amp; Queries
+- Request Pipeline Behaviors
+- Domain Event Notifications with multiple handlers
+- Dependency Injection support
+- Fully async/await friendly</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
