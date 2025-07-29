@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture_2025.Application.Abstractions.Messaging;
+﻿namespace Ramazan.Mediator;
 
 public interface IQueryHandler<in TQuery, TResponse>
     where TQuery : IQuery<TResponse>

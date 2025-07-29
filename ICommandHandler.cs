@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture_2025.Application.Abstractions.Messaging;
+﻿namespace Ramazan.Mediator;
 
 public interface ICommandHandler<in TCommand>
     where TCommand : ICommand

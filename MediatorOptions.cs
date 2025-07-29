@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace CleanArchitecture_2025.Application.Abstractions.Messaging;
+namespace Ramazan.Mediator;
 
 public sealed class MediatorOptions
 {

@@ -1,3 +1,3 @@
-﻿namespace CleanArchitecture_2025.Application.Abstractions.Messaging;
+﻿namespace Ramazan.Mediator;
 
 public interface IQuery<TResponse> : IRequest<TResponse>;

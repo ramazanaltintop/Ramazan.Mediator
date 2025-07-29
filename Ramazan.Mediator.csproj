@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>Lightweight CQRS &amp; Mediator for .NET</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Ramazan Altıntop</Authors>
     <Company>Ramazan Altıntop</Company>
     <Description>Lightweight and extensible Mediator for .NET — supports CQRS, pipeline behaviors, and domain events.</Description>
